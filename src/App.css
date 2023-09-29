@@ -1,0 +1,259 @@
+.hero{
+  background-image: url("./assets/img/wdsad-scaled.jpg");
+}
+
+
+.hero-text{
+  align-self: center;
+  margin-bottom: 3rem;
+}
+
+.logo{
+  width: 140px;
+  padding: 2rem 0 4rem;
+ 
+}
+
+.side1{
+  align-self: center;
+}
+
+
+
+.side1 button{
+  color: #fff;
+  background: #dd275a;
+  padding: 7px 16px;
+  border-radius: 5px;
+  border: none;
+}
+
+
+.side1 button:hover{
+  color: #fff;
+  background: #1c1b1b;
+  padding: 7px 16px;
+  border-radius: 5px;
+  border: none;
+}
+
+
+.side1 h1{
+  color: #fff;
+  font-weight: 700;
+}
+
+.side1 h3{
+  color: #e27a3e;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 2.3rem;
+}
+
+.imgWrap_container{
+  align-self: center;
+  margin-bottom: 2.8rem;  
+}
+
+
+.imgWrap img{
+  width: 100%;
+}
+
+
+.ContactUs-bx h3 {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 1.2em;
+  margin-top: -0.5em;
+}
+
+/* section  */
+
+.sidetext_container{
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fff;
+}
+
+.sidetext{
+  text-align: center;
+}
+
+.sidetext .subhead1{
+  font-size: small;
+  color: #fff;
+  background: linear-gradient(90.21deg, #ff1414 -5.91%, #d88169 111.58%);
+  padding: 3px;
+  border-radius: 20px;
+}
+
+.sidetext strong{
+  color: #ff1414;
+}
+
+.sidetext span{
+  font-size: larger;
+  font-weight: 500;
+}
+
+
+.sidetext h4{
+  color: rgb(24, 24, 136);
+  font-weight: 900;
+  font-size: larger;
+  text-align: center;
+}
+
+
+.form_container{
+  border: 1px solid gray;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+
+.new-email-bx{
+  background: #fff;
+  /* padding: 30px; */
+  border-radius: 20px;
+  position: relative;
+  z-index: 0px;
+  align-items: center;
+}
+
+
+.new-email-bx input{
+  width: 100%;
+  color: gray;
+  font-weight: 500;
+  background: transparent;
+  border: 1px solid gray ;
+  border-radius: 10px;
+  padding: 15px 0;
+  margin: 15px 0;
+}
+
+
+.new-email-bx input::placeholder{
+  color: #BBBBBB;
+  padding: 10px;
+}
+
+
+form button{
+
+    display: block;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 500;
+    background: #dd275a;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    margin-top: 20px;
+  
+
+  /* background: linear-gradient(90.21deg, #ff1414 -5.91%, #272729 111.58%);
+  padding: 10px 50px;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  border-radius: 19px;
+  font-size: 30px;
+  margin-top: 20px; */
+} 
+
+.new-email-bx textarea{
+  width: 100%;
+  min-height: 100px;
+}
+
+
+/* footer */
+
+.footer{
+  background-image: url("./assets/img/wdsad-scaled.jpg");
+  color: #fff;
+} 
+
+
+.enquiry_container{
+  align-self: flex-start;
+  
+}
+
+
+.social-icon a{
+  color: #fff;
+  text-decoration: none;
+  list-style-type: none;
+  line-height: 3rem;
+}
+
+
+li{
+  list-style-type: none;
+}
+
+
+@media (width <= 1198px) {
+  .navbar-text button{
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+
+  span.tagline{
+    margin-top: 11em!important;
+    margin-right: 0 !important;
+    width: fit-content;
+    text-align: center;
+  }
+
+
+  .ContactUs-bx{
+    max-width: 100% !important;
+    min-width: 20%!important;
+    margin-left: auto!important;
+    margin-right: auto !important;
+  }
+
+  .ContactUs-bx img{
+    max-width: 100% !important;
+  }
+
+  .imgWrap img{
+    width: 100%;
+  }
+
+  .imgWrap_container{
+    margin-bottom: 0;  
+  }
+
+  .heroBanner{
+    display: grid!important;
+  }
+
+   .form-row{
+    display: grid;
+  }
+
+  .footer{
+    min-height: 30rem;
+  }
+
+  .sidetext_container1{
+    margin-top: 2rem;
+  }
+
+  .sidetext{
+    margin-top: 2rem;
+  }
+
+  .enquiry_container{
+    margin-top: 3rem!important;
+    border-top: 1px solid gray;
+  }
+}
